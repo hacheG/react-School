@@ -6,7 +6,8 @@ import MyState from './components/MyState';
 import ConditionalRender from './components/ConditionalRender';
 import ElementRender from './components/ElementRender';
 import {EventsES6, EventsES7, MoreAboutEvents} from './components/Events';
-import Padre from './components/ComponentsComunication'
+import Padre from './components/ComponentsComunication';
+import LifeClicle from './components/LifeCicle';
 
 function App() {
   const sessions = ['spring','summer','fall', 'winter'];
@@ -71,6 +72,8 @@ function App() {
         <MoreAboutEvents/>
         <hr/>
         <Padre/>
+        <hr/>
+        <LifeClicle/>
         </section>
       </header>
     </div>
